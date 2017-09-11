@@ -13,7 +13,7 @@ it("should make Sadie black", function(){
   expect(sadie.color).toBe('black');
 });
 
-it("should be make Moonshine hungry and Sadie not hungry", function(){
+it("should make Moonshine hungry and Sadie not hungry", function(){
   expect(moonshine.hungry).toBe(true);
   expect(sadie.hungry).toBe(false);
 });
